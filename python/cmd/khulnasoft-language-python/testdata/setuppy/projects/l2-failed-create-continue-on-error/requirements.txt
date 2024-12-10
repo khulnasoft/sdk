@@ -1,0 +1,4 @@
+ROOT/artifacts/khulnasoft-CORE.VERSION-py3-none-any.whl
+ROOT/artifacts/khulnasoft_fail_on_create-4.0.0-py3-none-any.whl
+ROOT/artifacts/khulnasoft_simple-2.0.0-py3-none-any.whl
+mypy

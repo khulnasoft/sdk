@@ -1,0 +1,3 @@
+ROOT/artifacts/khulnasoft-CORE.VERSION-py3-none-any.whl
+ROOT/artifacts/khulnasoft_simple_invoke-10.0.0-py3-none-any.whl
+pyright

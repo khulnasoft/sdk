@@ -1,0 +1,5 @@
+#!/bin/sh
+KHULNASOFT_DYNAMIC_PROVIDER_SCRIPT_PATH=$(node -e "console.log(require.resolve('@khulnasoft/khulnasoft/cmd/dynamic-provider'))")
+if [ ! -z "$KHULNASOFT_DYNAMIC_PROVIDER_SCRIPT_PATH" ]; then
+    node "$KHULNASOFT_DYNAMIC_PROVIDER_SCRIPT_PATH" $@
+fi

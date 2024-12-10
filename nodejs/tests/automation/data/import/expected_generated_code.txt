@@ -1,0 +1,11 @@
+import * as khulnasoft from "@khulnasoft/khulnasoft";
+import * as random from "@khulnasoft/random";
+
+const randomPassword = new random.RandomPassword("randomPassword", {
+    length: 11,
+    lower: true,
+    number: true,
+    numeric: true,
+    special: true,
+    upper: true,
+});
